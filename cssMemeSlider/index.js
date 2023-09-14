@@ -5,7 +5,7 @@ const sliderInfo = document.querySelector('.slider-info');
 
 const slideDescription = [
   'Code Jam!?',
-  'Any questions',
+  'Any questions?',
   'DeadLine is not coming soon',
   'I am non tsleeping!'
 ];

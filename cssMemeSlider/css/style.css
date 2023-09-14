@@ -16,8 +16,14 @@ html {
 }  
 
 body {
-  background-color: #25282a;
+  background-color: #fff;
   margin:2vw;
+}
+
+.inner-wrapper {
+  margin:2vw;
+  background-color:#727171;
+  border: .5rem solid #ffdb1f;
 }
 
 .slider-wrapper {
@@ -26,8 +32,6 @@ body {
   max-width: 52rem;
   display: flex;
   flex-direction: column;
-  border-radius: 4%;
-  border: .2rem solid #fff;
 }
 
 .slider-images {
