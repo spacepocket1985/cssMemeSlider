@@ -91,6 +91,31 @@ body {
   max-width: 100%;
 }
 
+@media screen and (max-width: 640px) {
+  .slider-config {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+}
+
+.titleOn {
+  animation-duration: 1.5s;
+  animation-name: title-animation;
+  
+}
+
+@keyframes title-animation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 
 
 
