@@ -17,6 +17,7 @@ html {
 
 body {
   background-color: #25282a;
+  margin:2vw;
 }
 
 .slider-wrapper {
@@ -25,7 +26,8 @@ body {
   max-width: 52rem;
   display: flex;
   flex-direction: column;
-  border-radius: 2%;
+  border-radius: 4%;
+  border: .2rem solid #fff;
 }
 
 .slider-images {
@@ -40,14 +42,14 @@ body {
 
 .slider-config {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding-bottom: 2rem;
 }
 
 .slider-info {
   color: #fff;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .slider-controls {
