@@ -1,6 +1,16 @@
 const slides = document.querySelectorAll('.slider-images__item');
 const controlls = document.querySelectorAll('.slider-controls__item');
 const btnControlls = document.querySelectorAll('.btn-control');
+const sliderInfo = document.querySelector('.slider-info');
+
+const slideDescription = [
+  'Code Jam!?',
+  'Any questions',
+  'DeadLine is not coming soon',
+  'I am non tsleeping'
+];
+
+sliderInfo.textContent =  slideDescription[0];
 
 
 const removeActiveStatusBtn = () => {
@@ -14,6 +24,8 @@ controlls.forEach(controll => {
     removeActiveStatusBtn();
 
     let position = Number(controll.getAttribute('data-position'));
+    sliderInfo.textContent = slideDescription[position - 1];
+
     btnControlls[position - 1].classList.add('active');
 
     slides.forEach((slide) => {

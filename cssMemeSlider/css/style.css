@@ -25,7 +25,6 @@ body {
   max-width: 52rem;
   display: flex;
   flex-direction: column;
-  border: .2rem solid #fff;
   border-radius: 2%;
 }
 
@@ -41,14 +40,14 @@ body {
 
 .slider-config {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding-bottom: 2rem;
 }
 
 .slider-info {
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 .slider-controls {
@@ -78,6 +77,11 @@ body {
 }
 
 .btn-control.active {
+  border-color: #71abfe;
+  background-color: transparent;
+}
+
+.slider-controls__item:hover .btn-control.active  {
   border-color: #fff;
   background-color: transparent;
 }
@@ -86,6 +90,7 @@ body {
   transition: all 1s;
   max-width: 100%;
 }
+
 
 
 
