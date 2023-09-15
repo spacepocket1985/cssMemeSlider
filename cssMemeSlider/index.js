@@ -39,7 +39,7 @@ controlls.forEach(controll => {
 
     slides.forEach((slide) => {
       let xPosition = slide.offsetWidth;
-      slide.style.transform = `translateX(${(xPosition / 10 - xPosition / 10 * (position))}rem)`;
+      slide.style.transform = `translateX(${(xPosition / 16 - xPosition / 16 * (position))}rem)`;
     })
   })
 })
